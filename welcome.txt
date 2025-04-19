@@ -1,0 +1,9 @@
+1. Add Client
+2. Add Project to Client
+3. Log Work (description + hours + date)
+4. View Project Summary (per client)
+5. Mark Project as Completed
+6. Generate Invoice (auto calculate hours x rate)
+7. Save to JSON
+8. Load from JSON
+9. Exit

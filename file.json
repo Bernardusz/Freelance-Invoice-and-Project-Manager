@@ -1,0 +1,87 @@
+{
+    "client": {
+        "Ber": {
+            "Makan": {
+                "title": "Makan",
+                "rate": 20000,
+                "hour": 10,
+                "status": true
+            },
+            "Minum": {
+                "title": "Minum",
+                "rate": 20000,
+                "hour": 10,
+                "status": true
+            },
+            "Coding": {
+                "title": "Coding",
+                "rate": 20000,
+                "hour": 10,
+                "status": "web"
+            }
+        },
+        "Stan": {
+            "Makan": {
+                "title": "Makan",
+                "rate": 20000,
+                "hour": 10,
+                "status": true
+            },
+            "Minum": {
+                "title": "Minum",
+                "rate": 20000,
+                "hour": 10,
+                "status": "web"
+            },
+            "Coding": {
+                "title": "Coding",
+                "rate": 20000,
+                "hour": 10,
+                "status": "web"
+            }
+        },
+        "Anastasia": {
+            "Makan": {
+                "title": "Makan",
+                "rate": 20000,
+                "hour": 10,
+                "status": true
+            },
+            "Minum": {
+                "title": "Minum",
+                "rate": 20000,
+                "hour": 10,
+                "status": "web"
+            },
+            "Coding": {
+                "title": "Coding",
+                "rate": 20000,
+                "hour": 10,
+                "status": "web"
+            }
+        }
+    },
+    "worklog": {
+        "Ber": {
+            "Title": "Makan",
+            "Description": "Today",
+            "Rate per hour": 20000,
+            "Total hours": 10,
+            "Date finished": "Today"
+        },
+        "Stan": {
+            "Title": "Makan",
+            "Description": "M",
+            "Rate per hour": 20000,
+            "Total hours": 10,
+            "Date finished": "K"
+        },
+        "Anastasia": {
+            "Title": "Makan",
+            "Description": "Pi",
+            "Rate per hour": 20000,
+            "Total hours": 10,
+            "Date finished": "K"
+        }
+    }
+}
