@@ -98,7 +98,7 @@ Class composition and delegation
 
 ---
 
-✨ Credit
+## ✨ Credit
 Created with love and 4+ hours of sweat by **Bernardus** ❤️
 
 "More work = Brighter future 💼"
