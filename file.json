@@ -63,25 +63,25 @@
     },
     "worklog": {
         "Ber": {
-            "Title": "Makan",
+            "Title": "Date finished",
             "Description": "Today",
             "Rate per hour": 20000,
             "Total hours": 10,
-            "Date finished": "Today"
+            "Date finished": ""
         },
         "Stan": {
-            "Title": "Makan",
+            "Title": "Date finished",
             "Description": "M",
             "Rate per hour": 20000,
             "Total hours": 10,
-            "Date finished": "K"
+            "Date finished": ""
         },
         "Anastasia": {
-            "Title": "Makan",
+            "Title": "Date finished",
             "Description": "Pi",
             "Rate per hour": 20000,
             "Total hours": 10,
-            "Date finished": "K"
+            "Date finished": ""
         }
     }
 }

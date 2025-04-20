@@ -72,18 +72,16 @@ if __name__ == "__main__":
             jsonfile = input("Enter the file's name [file.json]: ")
             try:
                 Manager.save_to_json(jsonfile)
-                print("Saved !\n")
             except:
                 print("Invalid file's name !")
             print("\n-------------------------------------------------------------\n")
 
         elif userinput == "load from json": 
-            # try :
             jsonfile1 = input("Enter file name [file.json] : ")
-            Manager.load_json(jsonfile1)
-            print("Loaded !\n")
-            # except:
-            #     print("Invalid File Name !")
+            try :
+                Manager.load_json(jsonfile1)
+            except:
+                print("Invalid File Name !")
             print("\n-------------------------------------------------------------\n")
 
         elif userinput == "exit": #done

@@ -151,10 +151,9 @@ class FreeLanceManager:
                 }
 
         data["worklog"] = self.worklog.see_worklog
-        print(self.worklog.see_worklog)
         with open(file, "w") as f:
             json.dump(data, f, indent=4)
-
+        print("Saved !\n")
     
     def load_json(self, file):
         with open(file, "r") as f:
@@ -192,6 +191,6 @@ class FreeLanceManager:
                         total_hour = data["worklog"][people]["Total hours"]
                         finished = data["worklog"][people]["Date finished"]
                         self.worklog.add_worklog(person, Project(titles, rate_hourly, total_hour, finished), desc)
-
+        print("Loaded !\n")
 
         
